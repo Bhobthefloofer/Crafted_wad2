@@ -1,0 +1,255 @@
+.magnolia{
+  font-family: 'Magnolia Script', sans-serif;
+                                                
+}
+
+.edited{
+  color: #4b4f7b; 
+  /* text-stroke: 2px #4b4f7b; */
+  /* -webkit-text-stroke: 1px ; /* Fallback for non-webkit browsers */
+  /* font-weight: bold; */ 
+  
+};
+
+.light-grey{
+  color: #f3f3f6 !important;
+}
+
+.beige{
+  color: #e6e0d6; 
+}
+
+
+  body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  /* overflow-x: hidden; */
+}
+
+.center{
+  text-align: center;
+}
+
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.lato-regular-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lato-bold-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.lato-black-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+  .reason {
+    background-color: #4b4f7b;
+    color: #e6e0d6;
+    border-radius: 50px;
+    padding: 30px;
+    margin: 20px;
+  }
+
+  .backfill {
+    background-color: #4b4f7b;
+    color: white;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+  }
+
+  .header,
+  .footer {
+    background-color: #4b4f7b;
+    color: white;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+  }
+
+  .no-margin-padding {
+    margin: 0;
+    padding: 0;
+  }
+
+  .no-padding {
+    padding: 0;
+  }
+
+  .custom-navbar {
+    background-color: #4b4f7b;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+  }
+
+  .custom-link {
+    color: #e6e0d6 !important;
+    font-weight: bold !important;
+  }
+
+  .custom-link:hover {
+    color: #ffffff !important;
+  }
+
+  .custom-btn {
+    background-color: #383a68;
+    color: #e6e0d6;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 15px;
+  }
+
+  .custom-btn:hover {
+    background-color: #31337b;
+    color: #ffffff;
+  }
+
+  /* Center logo in navbar */
+  .navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+  }
+
+  /* Ensure correct layout on smaller screens */
+  @media (max-width: 768px) {
+    .navbar-brand {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+
+  /* Responsive logo size */
+  .navbar-brand img {
+    height: 90px;
+    /* For larger screens */
+    transition: height 0.3s ease;
+    /* Smooth transition for resizing */
+  }
+
+  /* Reduce logo size on smaller screens */
+  @media (max-width: 768px) {
+    .navbar-brand img {
+      height: 50px;
+      /* Reduce height for smaller screens */
+    }
+  }
+
+  .navbar-brand {
+    margin-top: 45px;
+  }
+
+  .ready {
+    color: #e6e0d6;
+  }
+
+  .btn-started {
+    margin-top: 10px;
+    background-color: #383a68;
+    color: #e6e0d6;
+    border-radius: 50px;
+    padding: 12px 24px;
+    /* Adjusted padding for larger size */
+    font-weight: bold;
+    font-size: 1rem;
+    /* Adjusted font size */
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease;
+    border: solid;
+  }
+
+  .navbar-button {
+
+    background-color: #383a68;
+    color: #e6e0d6;
+
+    font-weight: bold;
+
+    display: inline-block;
+    transition: all 0.3s ease;
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+  }
+
+  /* Smaller button on mobile devices */
+  @media (max-width: 768px) {
+    .btn-started {
+      padding: 10px 20px;
+      /* Slightly smaller padding */
+      font-size: 0.9rem;
+      /* Adjust font size for smaller screens */
+    }
+  }
+
+  .footer .logo-section img {
+      max-height: 45px; /* Adjust size to a medium value */
+  }
+
+  .footer .container-fluid {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  .footer p {
+      margin-bottom: 0;
+  }
+  
+  /* .container-fluid {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  }
+  .footer {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  }
+  body, html {
+  overflow-x: hidden;
+} */

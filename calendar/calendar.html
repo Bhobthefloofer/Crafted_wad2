@@ -3,48 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="calendar.css">
     <link href="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.3/main.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Magnolia+Script&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.3/main.min.js"></script>
     <title>Responsive FullCalendar</title>
-    <style>
-        body {
-            font-family: 'Lato', sans-serif;
-            background-color: #F3F3F6;
-            color: #383A68;
-        }
-        #calendar {
-            max-width: 900px;
-            margin: 40px auto;
-            background-color: #F3F3F6;
-        }
-        /* .fc-toolbar-title {
-            font-family: 'Magnolia Script', cursive;
-        } */
-        .fc-daygrid-day.fc-day-today {
-            background-color: #E6E0D6 !important;
-        }
-        .fc-button {
-            background-color: #4B4F7D;
-            color: #F3F3F6;
-            border: none;
-        }
-        .fc-button:hover, .fc-button:focus {
-            background-color: #383A68;
-            color: #F3F3F6;
-        }
-        .fc-button:active, .fc-button:visited {
-            background-color: #383A68;
-            color: #F3F3F6;
-        }
-        @media (max-width: 768px) {
-            #calendar {
-                max-width: 100%;
-                margin: 10px;
-            }
-        }
-    </style>
 </head>
 <body>
     <div id="calendar"></div>
